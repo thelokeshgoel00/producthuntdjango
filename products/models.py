@@ -15,6 +15,11 @@ class Product(models.Model):
 
     def pub_date_pretty(self):
         return self.pub_date.strftime('%b %e %Y')
+    def summary(self):
+        str = self.body[:100]
+        if(str != self.body):
+            str += '...'
+        return str    
 
  
 # Create your models here.
