@@ -43,7 +43,7 @@ oauthlib==2.0.6
 olefile==0.45.1
 openshot-qt==2.4.1
 pexpect==4.2.1
-Pillow==6.2.1
+Pillow==8.2.0
 protobuf==3.0.0
 psycopg2-binary==2.8.4
 pycairo==1.16.2
